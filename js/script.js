@@ -9,7 +9,7 @@ const getData = () => {
     .then(data => {
 
         let pId = document.createElement('p');
-        let pUserId = document.createElement('p');
+        let pUserID = document.createElement('p');
         let pTitle = document.createElement('p');
         let pBody = document.createElement('p');
         let hr = document.createElement('hr');
@@ -20,7 +20,7 @@ const getData = () => {
         pBody.innerText = `Body: ${data.body}`;
 
         document.body.appendChild(pId);
-        document.body.appendChild(pUserId);
+        document.body.appendChild(pUserID);
         document.body.appendChild(pTitle);
         document.body.appendChild(pBody);
         document.body.appendChild(hr);
